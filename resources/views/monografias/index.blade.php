@@ -34,7 +34,7 @@
                                         <td class="px-6 py-2">{{ $monografia->titulo }}</td>
                                         <td class="px-6 py-2">{{ $monografia->anyo }}</td>
                                         <td class="px-6 py-4">
-                                           <a href="{{ route('monografias.edit', $monografia) }}" class="mt-4 text-blue-900 hover:underline">Editar</a>
+                                           <a href="{{ route('monografias.edit', $monografia) }}" class="mt-4 text-blue-900 bg-green-400 rounded">Editar</a>
                                         </td>
                                         <td>
                                             <div class="text-sm text-gray-900 ">
@@ -46,7 +46,7 @@
                                             </div>
                                         </td>
                                         <td>
-                                            <a href="{{ route('monografias.show', $monografia) }}" class="mt-4 text-blue-900 hover:underline">Mostrar</a>
+                                            <a href="{{ route('monografias.show', $monografia) }}" class="mt-4 text-blue-900 bg-purple-400 rounded">Mostrar</a>
                                         </td>
                                     </tr>
                                 @endforeach
